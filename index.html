@@ -32,6 +32,9 @@
         }
 
         #under-construction {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
             padding: .25rem;
             background-image: linear-gradient(black, darkslategray);
             color: #ddd;
@@ -45,7 +48,10 @@
         }
 
         p {
-            margin-bottom: 0.5rem
+            margin-bottom: 1rem;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
         }
 
     </style>
@@ -72,8 +78,25 @@
         </div>
         <span class="divider"></span>
         <h2>My Resume</h2>
-        <p>As of March 2025:</p>
-        <embed id="resume" src="./public/resume-2025-v1.pdf" type="">
+        <p>
+            <span>
+                As of March 2025
+            </span>
+            <span>
+                <a href="./public/resume-2025-v1.pdf">Download PDF</a>
+            </span>
+        </p>
+        <embed id="resume" src="./public/resume-2025-v1.pdf">
+        <div id="resume-error" hidden="true"><i>Can't display resume. Please download it to view</i></div>
+        <script>
+            if (
+                /iPhone|iPad/i.test(navigator.userAgent) ||
+                (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
+            ) {
+                document.getElementById('resume').style.display = 'none';
+                document.getElementById('resume-error').hidden = false;
+            }
+        </script>
     </div>
 </body>
 </html>
