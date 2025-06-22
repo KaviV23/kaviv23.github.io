@@ -1,102 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <style>
-        * {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-        }
-
-        #center-box {
-            max-width: 768px;
-            height: 100vh;
-            margin: 2em auto;
-            padding: 0 1rem;
-        }
-
-        h1, h2 {
-            border-bottom: lightgray solid 1px;
-            margin-bottom: 1rem;
-        }
-
-        #link-icons > a {
-            margin-right: 1em;
-        }
-
-        #link-icons {
-            margin-bottom: 0.5rem;
-        }
-
-        #under-construction {
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            padding: .25rem;
-            background-image: linear-gradient(black, darkslategray);
-            color: #ddd;
-            text-align: center;
-            font-size: small;
-        }
-
-        #resume {
-            width: 100%;
-            height: 800px;
-        }
-
-        p {
-            margin-bottom: 1rem;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-        }
-
-    </style>
-    <link rel="apple-touch-icon" sizes="180x180" href="./public/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./public/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./public/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">     
-</head>
-
-<body>
-    <div id="under-construction">Temporary site</div>
-    <div id="center-box">
-        <h1>Kaviraj Vijayanthiran</h1>
-        <h2>Links</h2>
-        <div id="link-icons" style="
-            display: flex;
-            align-items: center;">
-            <a href="https://github.com/KaviV23/"><img style="width: 36px;"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png"></a>
-            <a href="https://www.linkedin.com/in/023kavi/"><img style="width: 36px;"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"></a>
-            <a href="mailto:023kavi@gmail.com"><img style="width: 36px;"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"></a>
-        </div>
-        <span class="divider"></span>
-        <h2>My Resume</h2>
-        <p>
-            <span>
-                As of May 2025
-            </span>
-            <span>
-                <a href="./public/resume-2025-v2.pdf" target="_blank">Download PDF</a>
-            </span>
-        </p>
-        <embed id="resume" src="./public/resume-2025-v2.pdf">
-        <div id="resume-error" hidden="true"><i>Can't display resume. Please download it to view</i></div>
-        <script>
-            if (
-                /iPhone|iPad/i.test(navigator.userAgent) ||
-                (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
-            ) {
-                document.getElementById('resume').style.display = 'none';
-                document.getElementById('resume-error').hidden = false;
-            }
-        </script>
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kavi's Portfolio</title>
+    <script type="module" crossorigin src="/assets/index-DRVi6h_B.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-XxnwFJHC.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
