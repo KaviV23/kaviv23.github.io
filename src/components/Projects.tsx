@@ -84,7 +84,7 @@ const projectData: ProjectData[] = [
     ]
   },
   {
-    title: "Tackboard",
+    title: "Tackboard - Todo App",
     github: "https://github.com/KaviV23/tackboard",
     description: [
       "Built a responsive full-stack Todo app using React, Bootstrap, and Spring Boot, with PostgreSQL for data persistence.",
