@@ -13,8 +13,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { FaCss3, FaGithub, FaHtml5, FaLinkedin, FaPhp, FaReact } from "react-icons/fa";
-import { SiExpress, SiFastapi, SiMantine, SiPostgresql, SiXampp } from "react-icons/si";
+import { FaBootstrap, FaCss3, FaGithub, FaHtml5, FaLinkedin, FaPhp, FaReact } from "react-icons/fa";
+import { SiExpress, SiFastapi, SiMantine, SiPostgresql, SiSpringboot, SiXampp } from "react-icons/si";
 import { RiGeminiLine } from "react-icons/ri";
 import type { ReactNode } from "react";
 import { FaFlutter } from "react-icons/fa6";
@@ -33,16 +33,15 @@ const projectData: ProjectData[] = [
   {
     title: "🏆 GrabEx - AI-Powered Sales & Customer Retention Dashboard",
     description: [
+        "Secured first place in a large-scale hackathon, outperforming over 1,000 participants from 113 universities.",
         "Developed a full-stack web platform to help merchants re-engage lapsed customers and optimize inventory decisions using natural language prompts.",
-        "GrabBack: Implemented a customer re-engagement system that delivers personalized promotions based on historical order data.",
-        "GrabCast: Built a forecasting tool that predicts daily sales and suggests optimal stock levels.",
         "Deployed using Docker for modular development and ease of deployment; designed interactive UI with React.js + Mantine and backend API with FastAPI",
     ],
     github: "https://github.com/KaviV23/nttc-umhack",
     linkedIn:
       "https://www.linkedin.com/posts/023kavi_hackathon-umhackathon2025-grab-activity-7321759956636954624-nAwp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADv2IRoBd0gVNmUjTJ2M_KhIFH9aLD3siE0",
     thumbnail: "/projects/grabEx/1.jpg",
-    images: ["/projects/grabEx/1.jpg", "/projects/grabEx/2.gif"],
+    images: ["/projects/grabEx/1.jpg", "/projects/grabEx/2.gif", "/projects/grabEx/3.jpg", "/projects/grabEx/4.jpeg"],
     tech: [
       <FaReact size={24} />,
       <SiMantine size={24} />,
@@ -82,6 +81,23 @@ const projectData: ProjectData[] = [
         <FaHtml5 size={24}/>,
         <FaCss3 size={24}/>,
         <SiXampp size={24} />,
+    ]
+  },
+  {
+    title: "Tackboard",
+    github: "https://github.com/KaviV23/tackboard",
+    description: [
+      "Built a responsive full-stack Todo app using React, Bootstrap, and Spring Boot, with PostgreSQL for data persistence.",
+      "Implemented JWT-based authentication with Spring Security to ensure secure user login and API protection.",
+      "Designed RESTful APIs and dynamic UI components to support CRUD operations with a focus on clean architecture and reusability.",
+    ],
+    thumbnail: "/projects/tackboard/1.png",
+    images: ["/projects/tackboard/1.png", "/projects/tackboard/2.png", "/projects/tackboard/3.png", "/projects/tackboard/4.png"],
+    tech: [
+        <FaReact size={24}/>,
+        <FaBootstrap size={24}/>,
+        <SiSpringboot size={24}/>,
+        <SiPostgresql size={24} />,
     ]
   },
 ];
