@@ -26,10 +26,8 @@ export function Hero() {
           Kaviraj Vijayanthiran
         </h1>
         <p className="mt-4 text-lg text-gray-300 max-w-xl">
-          I'm a final-year Software Engineering student at Sunway University.
-          <br className="hidden sm:block" /> I have fun working on frontend and
-          backend projects that solve real world problems using my experience
-          from past internship, freelance projects, and competitions.
+          I'm a final year Software Engineering student at <a href='https://sunwayuniversity.edu.my/' target='_blank' className='underline'>Sunway University</a> with hands-on experience in full-stack development, cloud infrastructure, and DevOps.
+          I am passionate about software development and keen on working with the latest tech!
         </p>
         <div className="mt-6 flex justify-center items-center md:justify-start space-x-6">
           <a
