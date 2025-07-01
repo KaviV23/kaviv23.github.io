@@ -117,7 +117,7 @@ export function Projects() {
                   <img
                     src={project.thumbnail}
                     alt={project.title}
-                    className={`rounded-t-lg ${
+                    className={`rounded-lg ${
                       project.images && "cursor-pointer"
                     } aspect-video object-cover`}
                   />
@@ -160,20 +160,29 @@ export function Projects() {
               </CardFooter>
             </Card>
             {project.images && (
-              <DialogContent className="max-w-3xl bg-secondary-dark border-gray-700 text-white">
+              <DialogContent
+                className="
+                  bg-secondary-dark border-gray-700 text-white
+                  w-full max-w-7xl
+                  max-h-[calc(100vh-2rem)]
+                  my-4
+                  p-4
+                "
+              >
                 <Carousel>
                   <CarouselContent>
                     {project.images.map((img, i) => (
-                      <CarouselItem key={i}>
+                      <CarouselItem key={i} className="flex justify-center items-center">
                         <img
                           src={img}
-                          className="w-full h-auto rounded-lg aspect-square object-contain"
+                          className="max-h-[70vh] max-w-full w-auto h-auto rounded-lg object-contain"
+                          alt={`Project image ${i + 1}`}
                         />
                       </CarouselItem>
                     ))}
                   </CarouselContent>
-                  <CarouselPrevious className="text-white hidden md:flex"/>
-                  <CarouselNext className="text-white hidden md:flex" />
+                  <CarouselPrevious className="hidden md:flex"/>
+                  <CarouselNext className="hidden md:flex"/>
                 </Carousel>
               </DialogContent>
             )}
