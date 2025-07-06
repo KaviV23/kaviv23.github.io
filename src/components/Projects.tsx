@@ -163,7 +163,7 @@ export function Projects() {
               <DialogContent
                 className="
                   bg-secondary-dark border-gray-700 text-white
-                  w-full max-w-7xl
+                  w-5/6 max-w-7xl
                   max-h-[calc(100vh-2rem)]
                   my-4
                   p-4
@@ -181,8 +181,8 @@ export function Projects() {
                       </CarouselItem>
                     ))}
                   </CarouselContent>
-                  <CarouselPrevious className="hidden md:flex"/>
-                  <CarouselNext className="hidden md:flex"/>
+                  <CarouselPrevious className="hidden md:flex ml-[-10px]"/>
+                  <CarouselNext className="hidden md:flex mr-[-10px]"/>
                 </Carousel>
               </DialogContent>
             )}
