@@ -21,9 +21,9 @@ function App() {
         <Navbar />
         <main className="container mx-auto px-4">
           <Hero />
-          <Skills />
           <Experience />
           <Projects />
+          <Skills />
           <Contact />
         </main>
       </div>
