@@ -1,7 +1,7 @@
 import { FaGithub, FaLink, FaLinkedin } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import { Button } from "@/components/ui/button"
-const myImage = '/my-picture.jpg'; 
+const myImage = '/my-picture2.jpg'; 
 
 export function Hero() {
   return (
@@ -10,7 +10,7 @@ export function Hero() {
       className="flex flex-col md:flex-row items-center justify-center min-h-screen"
     >
       <div className="md:w-1/3 flex justify-center pt-12 md:p-8">
-        <div className="relative w-64 h-64 md:ml-auto">
+        <div className="relative size-64 md:size-80 md:ml-auto">
           <div className="absolute inset-0 bg-white p-2 transform -rotate-3 shadow-2xl rounded-md">
             <img
               src={myImage}
@@ -26,8 +26,7 @@ export function Hero() {
           Kaviraj Vijayanthiran
         </h1>
         <p className="mt-4 text-lg text-gray-300 max-w-xl">
-          I'm a final year Software Engineering student at <a href='https://sunwayuniversity.edu.my/' target='_blank' className='underline'>Sunway University</a> with hands-on experience in full-stack development, cloud infrastructure, and DevOps.
-	  My love for software development pushes me to keep building better, more efficient solutions with the latest tech and best practices.
+          I'm an <b>Associate Software Engineer</b> at <a href='https://www.ideagen.com/' target='_blank' className='underline'>Ideagen</a>, and a recent graduate from <a href='https://sunwayuniversity.edu.my/' target='_blank' className='underline'>Sunway University</a>. I have hands-on experience in <b>full-stack development</b>, <b>cloud infrastructure</b>, and <b>DevOps</b>. My love for software development pushes me to keep building better, more efficient solutions with the latest tech and best practices.
         </p>
         <div className="mt-6 flex justify-center items-center md:justify-start space-x-6">
           <a

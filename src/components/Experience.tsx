@@ -2,6 +2,14 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const experienceData = [
   {
+    role: "Associate Software Engineer",
+    company: "Ideagen ICT Sdn. Bhd.",
+    period: "October 2025 - Present",
+    description: [
+      "TechAccelerate 2.0 Programme."
+    ]
+  },
+  {
     role: "Software Engineering Trainee",
     company: "Exabytes Enterprise Sdn. Bhd.",
     period: "January 2025 - April 2025",
