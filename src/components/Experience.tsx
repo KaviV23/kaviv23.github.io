@@ -6,7 +6,8 @@ const experienceData = [
     company: "Ideagen ICT Sdn. Bhd.",
     period: "October 2025 - Present",
     description: [
-      "TechAccelerate 2.0 Programme."
+      "Automating and modernizing traditional .NET Framework deployments through cloud solutions and pipeline orchestration.",
+      "Tools used: Azure Cloud, CI/CD Pipelines (Azure DevOps), Terraform IaC, PowerShell Scripting.",
     ]
   },
   {
