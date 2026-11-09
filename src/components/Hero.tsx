@@ -1,6 +1,7 @@
 import { FaGithub, FaLink, FaLinkedin } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import { Button } from "@/components/ui/button"
+
 const myImage = '/my-picture2.jpg'; 
 
 export function Hero() {
@@ -26,7 +27,13 @@ export function Hero() {
           Kaviraj Vijayanthiran
         </h1>
         <p className="mt-4 text-base md:text-lg text-gray-300 max-w-xl">
-          I'm an <b>Associate Software Engineer</b> at <a href='https://www.ideagen.com/' target='_blank' className='underline'>Ideagen</a>, and a recent graduate from <a href='https://sunwayuniversity.edu.my/' target='_blank' className='underline'>Sunway University</a>. I have hands-on experience in <b>full-stack development</b>, <b>cloud infrastructure</b>, and <b>DevOps</b>. My love for software development pushes me to keep building better, more efficient solutions with the latest tech and best practices.
+          Software Engineer with 1+ year of professional experience.
+        </p>
+        <p className="mt-4 text-base md:text-lg text-gray-300 max-w-xl">
+          At <a href='https://www.ideagen.com/' target='_blank' className='underline'>Ideagen</a>, I'm building solutions in <b>NET, React/TypeScript and AWS</b>, including the proof of concept for modernizing legacy .NET Framework 4.8 deployments onto AWS ECS.
+        </p>
+        <p className="mt-4 text-base md:text-lg text-gray-300 max-w-xl">
+          On the side, I love building web and mobile applications in <b>React &amp; TypeScript.</b>
         </p>
         <div className="mt-6 flex justify-center items-center md:justify-start space-x-6">
           <a

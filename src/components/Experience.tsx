@@ -3,16 +3,18 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const experienceData = [
   {
     role: "Associate Software Engineer",
-    company: "Ideagen ICT Sdn. Bhd.",
+    company: "Ideagen (Please Review)",
     period: "October 2025 - Present",
     description: [
-      "Automating and modernizing traditional .NET Framework deployments through cloud solutions and pipeline orchestration.",
-      "Tools used: Azure Cloud, CI/CD Pipelines (Azure DevOps), Terraform IaC, PowerShell Scripting.",
+      "Built the proof of concept and drove R&D for moving legacy .NET Framework 4.8 applications onto AWS ECS with GitHub Actions and Terraform, after iterating across Azure DevOps, Azure Web Apps and ArgoCD.",
+      "Replaced RDP, manual provisioning, and config editing with a dashboard (React, .NET) and XML config rendering tool; in testing, cut tenant onboarding and server upgrades from a few hours to under 30 minutes, with production rollout planned for 2027.",
+      "Deliver feature enhancements, refactors and bugfixes in C#/.NET, TypeScript and MSSQL across the full software development lifecycle.",
+      "Write unit tests, collaborate with QA and participate in code reviews to reduce regressions.",
     ]
   },
   {
     role: "Software Engineering Trainee",
-    company: "Exabytes Enterprise Sdn. Bhd.",
+    company: "Exabytes Enterprise",
     period: "January 2025 - April 2025",
     description: [
       "Automated provisioning and validation of virtual machines by developing a full stack React, Express & PostgreSQL application.",
