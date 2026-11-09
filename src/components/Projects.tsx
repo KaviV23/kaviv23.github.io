@@ -111,7 +111,7 @@ export function Projects() {
       <div className="container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projectData.map((project, index) => (
           <Dialog key={index}>
-            <Card className="min-h-0 bg-secondary-dark border-gray-700 text-white">
+            <Card className="flex flex-col min-h-0 bg-secondary-dark border-gray-700 text-white">
               <CardHeader>
                 {project.thumbnail && <DialogTrigger asChild>
                   <img
@@ -123,7 +123,7 @@ export function Projects() {
                   />
                 </DialogTrigger>}
               </CardHeader>
-              <CardContent>
+              <CardContent className="flex-grow">
                 <CardTitle className="mb-4">{project.title}</CardTitle>
                 <ul className="list-disc list-inside text-gray-300">
                   {project.description.map((line, idx) => (

@@ -21,11 +21,11 @@ export function Hero() {
         </div>
       </div>
       <div className="md:w-2/3 text-center md:text-left p-8">
-        <h2 className="text-lg md:text-2xl -bold text-gray-300">Hi 👋, I'm</h2>
-        <h1 className="text-5xl md:text-7xl font-bold text-white">
+        <span className="text-lg md:text-2xl -bold text-gray-300">Hi 👋, I'm</span>
+        <h1 className="text-3xl md:text-7xl font-bold text-white">
           Kaviraj Vijayanthiran
         </h1>
-        <p className="mt-4 text-lg text-gray-300 max-w-xl">
+        <p className="mt-4 text-base md:text-lg text-gray-300 max-w-xl">
           I'm an <b>Associate Software Engineer</b> at <a href='https://www.ideagen.com/' target='_blank' className='underline'>Ideagen</a>, and a recent graduate from <a href='https://sunwayuniversity.edu.my/' target='_blank' className='underline'>Sunway University</a>. I have hands-on experience in <b>full-stack development</b>, <b>cloud infrastructure</b>, and <b>DevOps</b>. My love for software development pushes me to keep building better, more efficient solutions with the latest tech and best practices.
         </p>
         <div className="mt-6 flex justify-center items-center md:justify-start space-x-6">
